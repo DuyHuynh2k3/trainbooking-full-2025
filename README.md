@@ -54,26 +54,7 @@ Momo API - Payment integration
 
 ZaloPay API - Payment integration
 
-Nodemailer - Email service for ticket delivery
+Brevo - Email service for ticket delivery
 
 Authentication - JWT-based security
 
-📁 Project Structure
-text
-trainbooking-full-2025/
-├── frontend/          # Next.js frontend application
-│   ├── src/
-│   ├── public/
-│   └── package.json
-├── backend/           # Backend API and server
-│   ├── api/
-│   ├── models/
-│   └── package.json
-└── README.md
-🚦 Getting Started
-Prerequisites
-Node.js 18+
-
-MySQL 8.0+
-
-npm or yarn
