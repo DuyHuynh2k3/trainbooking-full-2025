@@ -1,0 +1,29 @@
+
+  
+  li {
+    margin-bottom: 10px; 
+  }
+  
+  a {
+    font-size: 16px; 
+    
+    text-decoration: none; 
+    color: black; 
+  }
+  
+  a:hover {
+    color: #0056b3; 
+    text-decoration: underline; 
+  }
+  
+  h3 {
+    font-size: 24px; 
+    margin-bottom: 20px;
+  }
+  
+  span {
+    font-size: 14px; 
+    color: gray; 
+    margin-left: 5px; 
+  }
+  

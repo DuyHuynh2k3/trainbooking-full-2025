@@ -1,0 +1,61 @@
+/* Trong file InformationForm.css */
+/* Trong file InformationForm.css */
+td {
+  vertical-align: middle;
+}
+.table-co {
+  background-color: #e6e6fa !important;
+}
+
+table input {
+  height: 38px;
+  border-radius: 0px 3px 3px 0px;
+}
+table span {
+  border-radius: 3px 0px 0px 3px;
+  background-color: #eeeeee;
+  padding: 7px;
+  border-bottom-right-radius: 0px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* Trong file InformationForm.css */
+.payment-method-container {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.payment-method-container img {
+  margin-right: 16px;
+}
+
+.payment-method-container .MuiFormControlLabel-root {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.buttonn-check {
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+}
+
+.buttonn-check:hover {
+  border: 1px solid #cfcfcf;
+}
+
+.buttonn-check {
+  position: relative;
+  padding-left: 30px; /* Space for the checkmark */
+}
+
+.custom-card {
+  margin-top: 50px;
+}

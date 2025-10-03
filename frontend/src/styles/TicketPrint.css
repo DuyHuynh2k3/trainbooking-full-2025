@@ -1,0 +1,32 @@
+.ticket-print {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.ticket-print h3 {
+  font-weight: bold;
+  color: #333;
+}
+
+.ticket-print .card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.ticket-print .table th,
+.ticket-print .table td {
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+.ticket-print .img-thumbnail {
+  border: 1px solid #ddd;
+}
+
+/* Ẩn nút in khi in trang */
+@media print {
+  .ticket-print .btn {
+    display: none;
+  }
+}

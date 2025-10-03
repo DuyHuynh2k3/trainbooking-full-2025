@@ -1,0 +1,33 @@
+.breadcrumb-link {
+  text-decoration: none;
+  color: inherit;
+  font-size: 18px; /* Chỉnh cỡ chữ */
+  position: relative; /* Để tạo gạch chân khi hover */
+}
+
+.breadcrumb-link:hover::after {
+  content: ""; 
+  position: absolute;
+  left: 0;
+  bottom: -3px; /* Điều chỉnh khoảng cách của gạch chân */
+  width: 100%;
+  height: 2px; /* Độ dày của gạch chân */
+  background-color: blue; /* Màu gạch chân */
+}
+.breadcrumb-link:hover {
+  background-color: transparent !important; /* Tắt BG khi hover */
+}
+.breadcrumb-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+.breadcrumb-item {
+  flex: 1; /* Chia đều khoảng cách */
+  font-size: 18px;
+  padding: 5px 10px;
+  white-space: nowrap;
+}

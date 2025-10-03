@@ -1,0 +1,61 @@
+/* Container cho thanh tiến trình */
+.progress-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%; /* Bạn có thể thay đổi tùy theo kích thước */
+    margin: 0 auto;
+  }
+  
+  /* Mỗi bước trong tiến trình */
+  .step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* Vòng tròn cho các bước */
+  .step-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #6c757d; /* Màu xám */
+    color: #6c757d; /* Màu xám */
+    background-color: white;
+    font-size: 18px;
+    z-index: 100;
+  }
+  
+  /* Các bước đã hoàn thành sẽ có vòng tròn đầy màu xanh */
+  .step-circle.active {
+    border-color: #0d6efd; /* Màu xanh */
+    color:  #0d6efd;
+    background-color: white; /* Màu xanh */
+  }
+  
+  /* Nhãn của bước */
+  .step-label {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #6c757d; /* Màu xám */
+  }
+  
+  .step-label.active-label {
+    font-weight: bold;
+    color: #0d6efd; /* Màu xanh */
+  }
+  
+  /* Đường nối giữa các bước */
+  .step-line {
+    position: absolute;
+    top: 15px; /* Điều chỉnh vị trí của đường nối */
+    left: -230px;
+    width: 800px;
+    height: 1px;
+    background-color: #6c757d; /* Màu xám */
+  }
+  

@@ -1,0 +1,22 @@
+
+  /* Đổi background thành màu xanh khi hover */
+  nav a:hover {
+    background-color: #007bff;
+  }
+  
+  /* Màu nền của dropdown */
+  .dropdown-menu {
+    background-color: #0a58ca;
+    border-radius: 5px;
+  }
+  
+  /* Cách hiển thị khi hover vào dropdown */
+  .dropdown-menu a:hover {
+    background-color: #007bff;
+  }
+  
+  /* Style chung cho dropdown items */
+  .dropdown-item {
+    color: white;
+  }
+

@@ -1,0 +1,19 @@
+form {
+  padding-top: 15px;
+}
+.text-main {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+input,
+button {
+  height: 50px;
+}
+.card-header {
+  background-color: #f7f7f7 !important;
+}
+.btn-delete {
+    border: none;
+    background-color: white;
+}

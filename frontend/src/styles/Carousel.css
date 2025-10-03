@@ -1,0 +1,52 @@
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  width: 40px !important;
+  height: 40px !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 20px !important;
+  height: 20px !important;
+}
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.zoomIn {
+  animation: zoomIn 0.8s ease;
+}
+
+@keyframes zoomOut {
+  0% {
+    opacity: 0;
+    transform: scale(0.7);  /* Zoom nhỏ hơn */
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);  /* Scale bình thường */
+  }
+}
+
+.zoomOut {
+  animation: zoomOut 1.5s ease-in-out;  /* Kéo dài thời gian animation lên 1.5s */
+}
+
+
